@@ -1,0 +1,68 @@
+/* Todo lo que va aca adentro es un comentario. */
+
+
+/* Selector universal / resetear los estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Formas de agregar estilos a mis html */
+/* Forma 1: Directamente al selector */
+
+/*
+ 
+selector { 
+    propiedad: valor;
+       }
+*/
+
+header {
+    background-color:cornflowerblue;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+/* Forma 2: Con clases, es un atributo que nos permite individualizar a los elementos html. Para llamar la clase tengo que ponerle un punto */
+
+.enlace {
+    color:cornflowerblue ;
+}
+
+/* Forma 3: Con el ID. El id es unico*/
+
+#productos {
+    background-color: chocolate;
+    list-style-type: none;
+    
+}
+
+/*Forma 4: Cascada. CSS - Significa hoja de estilos en cascada */
+
+header nav ul li {
+    list-style-type: none;
+}
+
+/* Varias etiquetas que comparten las mismas propiedades pero no estan en la misma casacada, uso la coma para agrupar*/
+
+.parrafo-azul, .enlace-azul {
+    color: blue;
+    /* Fuentes */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Los elementos en bloque ocupan el 100% de la pantalla */
+/* Los elementos en linea ocupan solo el espacio de su contenido */
+
+ .parragraph{
+     background-color: aqua;
+     font-family:Verdana, Geneva, Tahoma, sans-serif
+ }
+
+em {
+    color: brown;
+}
